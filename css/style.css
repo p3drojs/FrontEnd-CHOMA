@@ -1,0 +1,20 @@
+p{
+    color: #ed35f0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+
+.top{
+    background-color: chocolate;
+}
+
+.conteudo{
+    background-color: chocolate;
+}
+
+.rodape{
+    background-color: chocolate;
+}
