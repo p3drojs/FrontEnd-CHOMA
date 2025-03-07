@@ -9,6 +9,7 @@ body{
     align-items: center;
     justify-content:space-between;
     display: flex;
+    border-radius: 5px;
 }
 
 #Top a{
@@ -28,4 +29,13 @@ body{
 .navbar a:hover{
     background-color: rgb(145, 130, 130);
     border-radius: 5px;
+}
+
+.conteudo-black{
+    background-color: black;
+    color: white;
+}
+
+.conteudo-azul{
+    background-color: aqua;
 }
