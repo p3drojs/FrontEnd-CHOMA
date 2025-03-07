@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#Top{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+}
+
+#Top a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(145, 130, 130);
+    border-radius: 5px;
+}
