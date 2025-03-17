@@ -1,0 +1,43 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(137, 143, 226, 0.726);
+}
+
+#img{
+    
+    border-radius: 5px;
+    border: 2px solid black; 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#MID{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 200px;
+}
+
+#Matrix{
+    border-radius: 5px;
+    border: 2px solid rgb(240, 242, 253); 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+#below{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
