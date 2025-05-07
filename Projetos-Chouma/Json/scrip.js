@@ -1,4 +1,5 @@
 const botao = document.getElementById('registrar');
+const listObj = [];
 
 botao.addEventListener('click',
     function (){
@@ -6,8 +7,10 @@ botao.addEventListener('click',
             login: document.getElementById('login').value,
             senha: document.getElementById('senha').value
         }
-
         console.log(login);
+        listaObj.push(login);
+        imprimirObjeto(login);
+        console.log(listObj)
     }
 );
 
@@ -21,4 +24,9 @@ function imprimirObjeto(login){
 
     impressao.appendChild(pUsuario);
     impressao.appendChild(pSenha);
+}
+
+function converterJson(){
+    const json = JSON.stringify(listaObj);
+    console.log(json);
 }
