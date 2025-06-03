@@ -7,6 +7,14 @@ botao.addEventListener('click', function(){
         usuario: document.getElementById('usuario').value.trim(),
         senha: document.getElementById('senha').value.trim()
     };
+    let indice = document.getElementById('indice').value;
+    if(indice !== ""){
+        listaUsuarioCadastrados[indice] = objusuario;
+        document.getElementById('indice').value = "";
+    }else{
+        listaUsuarioCadastrados.push(objusuario);
+    }
+    
     listaUsuarioCadastrados.push(objusuario);
     const listaJson = JSON.stringify(listaUsuarioCadastrados);
     localStorage.setItem('usuarios', listaJson);
@@ -39,6 +47,17 @@ function removerUsuario(index){
     let listaJson = JSON.stringify(listaUsuarios);
     localStorage.setItem("usuarios", listaJson);
     listar();
+}
+
+function editarUsuario(index){
+    const listaUsuarios = JSON.parse(localStorage.getItem
+    ("usuarios")) || [];
+    listaUsuarios[index];
+    document.usuarioEditar.getElementById('usuario').value = usuarioEditar.usuario;
+    document;usuarioEditar.getElementById('senha').value = usuarioEditar.senha;
+    document.getElementById('indice').value = index;
+
+
 }
 
 listar();
