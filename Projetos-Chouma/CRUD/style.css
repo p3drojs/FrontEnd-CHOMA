@@ -1,0 +1,60 @@
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Título */
+h1, h2 {
+    color: #333;
+}
+
+/* Formulário */
+form {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Campos do formulário */
+input {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Botão */
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Item da lista */
+li {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/* Botões da lista */
+li button {
+    margin-left: 5px;
+    background-color: #f44336;
+}
+li button.editar {
+    background-color: #2196F3;
+}

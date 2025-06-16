@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD com LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerenciador de Pessoas</h1>
+
+    <!-- Formulário para cadastro e edição -->
+    <form id="formPessoa">
+        <input type="hidden" id="indicePessoa">
+        <label for="nomePessoa">Nome:</label>
+        <input type="text" id="nomePessoa" required>
+        <label for="idadePessoa">Idade:</label>
+        <input type="number" id="idadePessoa" required>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <!-- Lista das pessoas cadastradas -->
+    <h2>Lista de Pessoas</h2>
+    <ul id="listaPessoas"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
